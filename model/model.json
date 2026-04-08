@@ -2,29 +2,8 @@
   "modelTopology": {
     "class_name": "Sequential",
     "config": {
-      "name": "functional",
+      "name": "sequential",
       "layers": [
-        {
-          "class_name": "InputLayer",
-          "config": {
-            "batch_shape": [
-              null,
-              64,
-              64,
-              3
-            ],
-            "dtype": "float32",
-            "sparse": false,
-            "ragged": false,
-            "name": "input_layer",
-            "batch_input_shape": [
-              null,
-              64,
-              64,
-              3
-            ]
-          }
-        },
         {
           "class_name": "Conv2D",
           "config": {
@@ -67,7 +46,13 @@
             "bias_regularizer": null,
             "activity_regularizer": null,
             "kernel_constraint": null,
-            "bias_constraint": null
+            "bias_constraint": null,
+            "batch_input_shape": [
+              null,
+              64,
+              64,
+              3
+            ]
           }
         },
         {

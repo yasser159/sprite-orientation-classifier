@@ -172,50 +172,33 @@ def build_dataset():
 
     return X_train, Y_train_oh, y_train, X_val, Y_val_oh, y_val
 
-# ── SE Block (Squeeze-and-Excite) ─────────────────────────────────────────
-class SEBlock(tf.keras.layers.Layer):
-    def __init__(self, channels, reduction=4, **kwargs):
-        super().__init__(**kwargs)
-        self.gap = tf.keras.layers.GlobalAveragePooling2D()
-        self.fc1 = tf.keras.layers.Dense(channels // reduction, activation='relu')
-        self.fc2 = tf.keras.layers.Dense(channels, activation='sigmoid')
-        self.reshape_channels = channels
-
-    def call(self, x):
-        se = self.gap(x)
-        se = self.fc1(se)
-        se = self.fc2(se)
-        se = tf.reshape(se, [-1, 1, 1, self.reshape_channels])
-        return x * se
-
-# ── Model ──────────────────────────────────────────────────────────────────
+# ── Model (Sequential — guaranteed TFJS-compatible export) ─────────────────
 def build_model():
-    inputs = tf.keras.Input(shape=(IMG_SIZE, IMG_SIZE, 3))
+    model = tf.keras.Sequential([
+        # Block 1
+        tf.keras.layers.Conv2D(32, 3, padding='same', activation='relu',
+                               input_shape=(IMG_SIZE, IMG_SIZE, 3)),
+        tf.keras.layers.BatchNormalization(),
+        tf.keras.layers.Conv2D(32, 3, padding='same', activation='relu'),
+        tf.keras.layers.MaxPooling2D(2),  # 32×32
 
-    # Block 1 (no SE blocks — they break TFJS export as custom layers)
-    x = tf.keras.layers.Conv2D(32, 3, padding='same', activation='relu')(inputs)
-    x = tf.keras.layers.BatchNormalization()(x)
-    x = tf.keras.layers.Conv2D(32, 3, padding='same', activation='relu')(x)
-    x = tf.keras.layers.MaxPooling2D(2)(x)  # 32×32
+        # Block 2
+        tf.keras.layers.Conv2D(64, 3, padding='same', activation='relu'),
+        tf.keras.layers.BatchNormalization(),
+        tf.keras.layers.Conv2D(64, 3, padding='same', activation='relu'),
+        tf.keras.layers.MaxPooling2D(2),  # 16×16
 
-    # Block 2
-    x = tf.keras.layers.Conv2D(64, 3, padding='same', activation='relu')(x)
-    x = tf.keras.layers.BatchNormalization()(x)
-    x = tf.keras.layers.Conv2D(64, 3, padding='same', activation='relu')(x)
-    x = tf.keras.layers.MaxPooling2D(2)(x)  # 16×16
+        # Block 3
+        tf.keras.layers.Conv2D(128, 3, padding='same', activation='relu'),
+        tf.keras.layers.BatchNormalization(),
+        tf.keras.layers.MaxPooling2D(2),  # 8×8
 
-    # Block 3
-    x = tf.keras.layers.Conv2D(128, 3, padding='same', activation='relu')(x)
-    x = tf.keras.layers.BatchNormalization()(x)
-    x = tf.keras.layers.MaxPooling2D(2)(x)  # 8×8
-
-    # Head
-    x = tf.keras.layers.GlobalAveragePooling2D()(x)
-    x = tf.keras.layers.Dense(64, activation='relu')(x)
-    x = tf.keras.layers.Dropout(0.4)(x)
-    outputs = tf.keras.layers.Dense(NUM_CLASSES, activation='softmax')(x)
-
-    model = tf.keras.Model(inputs, outputs)
+        # Head
+        tf.keras.layers.GlobalAveragePooling2D(),
+        tf.keras.layers.Dense(64, activation='relu'),
+        tf.keras.layers.Dropout(0.4),
+        tf.keras.layers.Dense(NUM_CLASSES, activation='softmax'),
+    ])
     return model
 
 # ── Training with MixUp/CutMix ────────────────────────────────────────────
@@ -285,16 +268,15 @@ def train_one_model(X_train, Y_train_oh, X_val, Y_val_oh, seed=42):
 
 # ── Test-Time Augmentation (TTA) ──────────────────────────────────────────
 def predict_with_tta(model, X, n_aug=4):
-    """Average predictions from original + augmented versions."""
+    """Average predictions from original + brightness-augmented versions.
+    NO horizontal flips — they swap east↔west and destroy directional accuracy."""
     preds = model.predict(X, verbose=0)
-    for _ in range(n_aug):
-        # Flip horizontally
-        X_flip = X[:, :, ::-1, :]
-        preds += model.predict(X_flip, verbose=0)
-        # Slight brightness variation
-        X_bright = np.clip(X * np.random.uniform(0.9, 1.1), 0, 1)
-        preds += model.predict(X_bright.astype(np.float32), verbose=0)
-    return preds / (1 + n_aug * 2)
+    for i in range(n_aug):
+        # Brightness variation only (preserves spatial orientation)
+        factor = 0.85 + (i / n_aug) * 0.3  # spread from 0.85 to 1.15
+        X_bright = np.clip(X * factor, 0, 1).astype(np.float32)
+        preds += model.predict(X_bright, verbose=0)
+    return preds / (1 + n_aug)
 
 # ── TFJS export ────────────────────────────────────────────────────────────
 def export_tfjs(model, output_dir):
