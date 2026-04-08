@@ -1,0 +1,962 @@
+{
+  "707.png": {
+    "category": "aircraft",
+    "noseDirection": "north",
+    "approved": true,
+    "detectedNorth": true,
+    "topAlpha": 0,
+    "botAlpha": 0,
+    "needsRotation": false,
+    "approvedAt": "2026-04-08T11:48:39.142Z"
+  },
+  "757.png": {
+    "category": "aircraft",
+    "noseDirection": "north",
+    "approved": true,
+    "detectedNorth": true,
+    "topAlpha": 0,
+    "botAlpha": 0,
+    "needsRotation": false,
+    "approvedAt": "2026-04-08T11:48:50.058Z"
+  },
+  "A318.png": {
+    "category": "aircraft",
+    "noseDirection": "north",
+    "approved": true,
+    "detectedNorth": true,
+    "topAlpha": 0,
+    "botAlpha": 0,
+    "needsRotation": false,
+    "approvedAt": "2026-04-08T11:48:54.015Z"
+  },
+  "A319.png": {
+    "category": "aircraft",
+    "noseDirection": "north",
+    "approved": false,
+    "detectedNorth": true,
+    "topAlpha": 0,
+    "botAlpha": 0
+  },
+  "A320.png": {
+    "category": "aircraft",
+    "noseDirection": "north",
+    "approved": true,
+    "detectedNorth": true,
+    "topAlpha": 0,
+    "botAlpha": 0,
+    "needsRotation": false,
+    "approvedAt": "2026-04-08T11:48:57.181Z"
+  },
+  "A321.png": {
+    "category": "aircraft",
+    "noseDirection": "north",
+    "approved": true,
+    "detectedNorth": true,
+    "topAlpha": 0,
+    "botAlpha": 0,
+    "needsRotation": false,
+    "approvedAt": "2026-04-08T11:48:59.501Z"
+  },
+  "A332.png": {
+    "category": "aircraft",
+    "noseDirection": "north",
+    "approved": true,
+    "detectedNorth": true,
+    "topAlpha": 0,
+    "botAlpha": 0,
+    "needsRotation": false,
+    "approvedAt": "2026-04-08T11:49:03.787Z"
+  },
+  "A333.png": {
+    "category": "aircraft",
+    "noseDirection": "north",
+    "approved": true,
+    "detectedNorth": true,
+    "topAlpha": 0,
+    "botAlpha": 0,
+    "needsRotation": false,
+    "approvedAt": "2026-04-08T11:49:05.802Z"
+  },
+  "A343.png": {
+    "category": "aircraft",
+    "noseDirection": "north",
+    "approved": true,
+    "detectedNorth": true,
+    "topAlpha": 0,
+    "botAlpha": 0,
+    "needsRotation": false,
+    "approvedAt": "2026-04-08T11:49:08.356Z"
+  },
+  "A346.png": {
+    "category": "aircraft",
+    "noseDirection": "north",
+    "approved": true,
+    "detectedNorth": true,
+    "topAlpha": 0,
+    "botAlpha": 0,
+    "needsRotation": false,
+    "approvedAt": "2026-04-08T11:49:10.145Z"
+  },
+  "A350.png": {
+    "category": "aircraft",
+    "noseDirection": "north",
+    "approved": true,
+    "detectedNorth": true,
+    "topAlpha": 0,
+    "botAlpha": 0,
+    "needsRotation": false,
+    "approvedAt": "2026-04-08T11:49:12.652Z"
+  },
+  "A359.png": {
+    "category": "aircraft",
+    "noseDirection": "north",
+    "approved": true,
+    "detectedNorth": true,
+    "topAlpha": 0,
+    "botAlpha": 0,
+    "needsRotation": false,
+    "approvedAt": "2026-04-08T11:49:14.339Z"
+  },
+  "A380.png": {
+    "category": "aircraft",
+    "noseDirection": "north",
+    "approved": true,
+    "detectedNorth": true,
+    "topAlpha": 0,
+    "botAlpha": 0,
+    "needsRotation": false,
+    "approvedAt": "2026-04-08T11:49:17.384Z"
+  },
+  "AN225.png": {
+    "category": "aircraft",
+    "noseDirection": "north",
+    "approved": true,
+    "detectedNorth": true,
+    "topAlpha": 0,
+    "botAlpha": 0,
+    "needsRotation": false,
+    "approvedAt": "2026-04-08T11:49:20.369Z"
+  },
+  "AS21.png": {
+    "category": "aircraft",
+    "noseDirection": "north",
+    "approved": true,
+    "detectedNorth": true,
+    "topAlpha": 0,
+    "botAlpha": 0,
+    "needsRotation": false,
+    "approvedAt": "2026-04-08T11:49:23.017Z"
+  },
+  "ASK21.png": {
+    "category": "aircraft",
+    "noseDirection": "north",
+    "approved": true,
+    "detectedNorth": true,
+    "topAlpha": 0,
+    "botAlpha": 0,
+    "needsRotation": false,
+    "approvedAt": "2026-04-08T11:49:25.252Z"
+  },
+  "AT45.png": {
+    "category": "aircraft",
+    "noseDirection": "north",
+    "approved": true,
+    "detectedNorth": true,
+    "topAlpha": 0,
+    "botAlpha": 0,
+    "needsRotation": false,
+    "approvedAt": "2026-04-08T11:49:29.165Z"
+  },
+  "AT75.png": {
+    "category": "aircraft",
+    "noseDirection": "north",
+    "approved": true,
+    "detectedNorth": true,
+    "topAlpha": 0,
+    "botAlpha": 0,
+    "needsRotation": false,
+    "approvedAt": "2026-04-08T11:49:34.186Z"
+  },
+  "ATR42.png": {
+    "category": "aircraft",
+    "noseDirection": "north",
+    "approved": true,
+    "detectedNorth": true,
+    "topAlpha": 0,
+    "botAlpha": 0,
+    "needsRotation": false,
+    "approvedAt": "2026-04-08T11:49:36.776Z"
+  },
+  "B407.png": {
+    "category": "aircraft",
+    "noseDirection": "north",
+    "approved": true,
+    "detectedNorth": true,
+    "topAlpha": 0,
+    "botAlpha": 0,
+    "needsRotation": false,
+    "approvedAt": "2026-04-08T11:49:39.889Z"
+  },
+  "B736.png": {
+    "category": "aircraft",
+    "noseDirection": "north",
+    "approved": true,
+    "detectedNorth": true,
+    "topAlpha": 0,
+    "botAlpha": 0,
+    "needsRotation": false,
+    "approvedAt": "2026-04-08T11:49:45.981Z"
+  },
+  "B737.png": {
+    "category": "aircraft",
+    "noseDirection": "south",
+    "approved": true,
+    "detectedNorth": true,
+    "topAlpha": 0,
+    "botAlpha": 0,
+    "needsRotation": false,
+    "approvedAt": "2026-04-08T11:49:50.083Z"
+  },
+  "B738.png": {
+    "category": "aircraft",
+    "noseDirection": "north",
+    "approved": true,
+    "detectedNorth": true,
+    "topAlpha": 0,
+    "botAlpha": 0,
+    "needsRotation": false,
+    "approvedAt": "2026-04-08T11:50:12.521Z"
+  },
+  "B739.png": {
+    "category": "aircraft",
+    "noseDirection": "north",
+    "approved": true,
+    "detectedNorth": true,
+    "topAlpha": 0,
+    "botAlpha": 0,
+    "needsRotation": false,
+    "approvedAt": "2026-04-08T11:50:09.972Z"
+  },
+  "B744.png": {
+    "category": "aircraft",
+    "noseDirection": "north",
+    "approved": true,
+    "detectedNorth": true,
+    "topAlpha": 0,
+    "botAlpha": 0,
+    "needsRotation": false,
+    "approvedAt": "2026-04-08T11:50:19.046Z"
+  },
+  "B747.png": {
+    "category": "aircraft",
+    "noseDirection": "north",
+    "approved": true,
+    "detectedNorth": true,
+    "topAlpha": 0,
+    "botAlpha": 0,
+    "needsRotation": false,
+    "approvedAt": "2026-04-08T11:50:23.984Z"
+  },
+  "B748.png": {
+    "category": "aircraft",
+    "noseDirection": "north",
+    "approved": true,
+    "detectedNorth": true,
+    "topAlpha": 0,
+    "botAlpha": 0,
+    "needsRotation": false,
+    "approvedAt": "2026-04-08T11:50:27.597Z"
+  },
+  "B752.png": {
+    "category": "aircraft",
+    "noseDirection": "north",
+    "approved": true,
+    "detectedNorth": true,
+    "topAlpha": 0,
+    "botAlpha": 0,
+    "needsRotation": false,
+    "approvedAt": "2026-04-08T11:50:30.186Z"
+  },
+  "B753.png": {
+    "category": "aircraft",
+    "noseDirection": "north",
+    "approved": true,
+    "detectedNorth": true,
+    "topAlpha": 0,
+    "botAlpha": 0,
+    "needsRotation": false,
+    "approvedAt": "2026-04-08T11:50:34.039Z"
+  },
+  "B762.png": {
+    "category": "aircraft",
+    "noseDirection": "north",
+    "approved": true,
+    "detectedNorth": true,
+    "topAlpha": 0,
+    "botAlpha": 0,
+    "needsRotation": false,
+    "approvedAt": "2026-04-08T11:50:32.472Z"
+  },
+  "B763.png": {
+    "category": "aircraft",
+    "noseDirection": "north",
+    "approved": true,
+    "detectedNorth": true,
+    "topAlpha": 0,
+    "botAlpha": 0,
+    "needsRotation": false,
+    "approvedAt": "2026-04-08T11:50:36.017Z"
+  },
+  "B764.png": {
+    "category": "aircraft",
+    "noseDirection": "north",
+    "approved": true,
+    "detectedNorth": true,
+    "topAlpha": 0,
+    "botAlpha": 0,
+    "needsRotation": false,
+    "approvedAt": "2026-04-08T11:50:38.820Z"
+  },
+  "B767.png": {
+    "category": "aircraft",
+    "noseDirection": "north",
+    "approved": true,
+    "detectedNorth": true,
+    "topAlpha": 0,
+    "botAlpha": 0,
+    "needsRotation": false,
+    "approvedAt": "2026-04-08T11:50:40.872Z"
+  },
+  "B772.png": {
+    "category": "aircraft",
+    "noseDirection": "north",
+    "approved": true,
+    "detectedNorth": true,
+    "topAlpha": 0,
+    "botAlpha": 0,
+    "needsRotation": false,
+    "approvedAt": "2026-04-08T11:50:42.886Z"
+  },
+  "B773.png": {
+    "category": "aircraft",
+    "noseDirection": "north",
+    "approved": true,
+    "detectedNorth": true,
+    "topAlpha": 0,
+    "botAlpha": 0,
+    "needsRotation": false,
+    "approvedAt": "2026-04-08T11:50:46.842Z"
+  },
+  "B788.png": {
+    "category": "aircraft",
+    "noseDirection": "north",
+    "approved": true,
+    "detectedNorth": true,
+    "topAlpha": 0,
+    "botAlpha": 0,
+    "needsRotation": false,
+    "approvedAt": "2026-04-08T11:50:44.961Z"
+  },
+  "B789.png": {
+    "category": "aircraft",
+    "noseDirection": "north",
+    "approved": true,
+    "detectedNorth": true,
+    "topAlpha": 0,
+    "botAlpha": 0,
+    "needsRotation": false,
+    "approvedAt": "2026-04-08T11:50:48.771Z"
+  },
+  "BAE146.png": {
+    "category": "aircraft",
+    "noseDirection": "north",
+    "approved": true,
+    "detectedNorth": true,
+    "topAlpha": 0,
+    "botAlpha": 0,
+    "needsRotation": false,
+    "approvedAt": "2026-04-08T11:50:50.396Z"
+  },
+  "BCS1.png": {
+    "category": "aircraft",
+    "noseDirection": "north",
+    "approved": true,
+    "detectedNorth": true,
+    "topAlpha": 0,
+    "botAlpha": 0,
+    "needsRotation": false,
+    "approvedAt": "2026-04-08T11:50:53.876Z"
+  },
+  "BCS3.png": {
+    "category": "aircraft",
+    "noseDirection": "north",
+    "approved": true,
+    "detectedNorth": true,
+    "topAlpha": 0,
+    "botAlpha": 0,
+    "needsRotation": false,
+    "approvedAt": "2026-04-08T11:50:52.427Z"
+  },
+  "BELUGA.png": {
+    "category": "aircraft",
+    "noseDirection": "north",
+    "approved": true,
+    "detectedNorth": true,
+    "topAlpha": 0,
+    "botAlpha": 0,
+    "needsRotation": false,
+    "approvedAt": "2026-04-08T11:50:54.795Z"
+  },
+  "C182.png": {
+    "category": "aircraft",
+    "noseDirection": "north",
+    "approved": true,
+    "detectedNorth": true,
+    "topAlpha": 0,
+    "botAlpha": 0,
+    "needsRotation": false,
+    "approvedAt": "2026-04-08T11:50:55.973Z"
+  },
+  "C208.png": {
+    "category": "aircraft",
+    "noseDirection": "north",
+    "approved": true,
+    "detectedNorth": true,
+    "topAlpha": 0,
+    "botAlpha": 0,
+    "needsRotation": false,
+    "approvedAt": "2026-04-08T11:51:00.022Z"
+  },
+  "C421.png": {
+    "category": "aircraft",
+    "noseDirection": "north",
+    "approved": true,
+    "detectedNorth": true,
+    "topAlpha": 0,
+    "botAlpha": 0,
+    "needsRotation": false,
+    "approvedAt": "2026-04-08T11:51:01.177Z"
+  },
+  "C550.png": {
+    "category": "aircraft",
+    "noseDirection": "north",
+    "approved": true,
+    "detectedNorth": true,
+    "topAlpha": 0,
+    "botAlpha": 0,
+    "needsRotation": false,
+    "approvedAt": "2026-04-08T11:51:03.136Z"
+  },
+  "CITATION.png": {
+    "category": "aircraft",
+    "noseDirection": "north",
+    "approved": true,
+    "detectedNorth": true,
+    "topAlpha": 0,
+    "botAlpha": 0,
+    "needsRotation": false,
+    "approvedAt": "2026-04-08T11:51:04.439Z"
+  },
+  "CRJ2.png": {
+    "category": "aircraft",
+    "noseDirection": "north",
+    "approved": true,
+    "detectedNorth": true,
+    "topAlpha": 0,
+    "botAlpha": 0,
+    "needsRotation": false,
+    "approvedAt": "2026-04-08T11:51:07.708Z"
+  },
+  "CRJ7.png": {
+    "category": "aircraft",
+    "noseDirection": "north",
+    "approved": true,
+    "detectedNorth": true,
+    "topAlpha": 0,
+    "botAlpha": 0,
+    "needsRotation": false,
+    "approvedAt": "2026-04-08T11:51:09.417Z"
+  },
+  "CRJ700.png": {
+    "category": "aircraft",
+    "noseDirection": "north",
+    "approved": false,
+    "detectedNorth": true,
+    "topAlpha": 0,
+    "botAlpha": 0
+  },
+  "CRJ9.png": {
+    "category": "aircraft",
+    "noseDirection": "north",
+    "approved": true,
+    "detectedNorth": true,
+    "topAlpha": 0,
+    "botAlpha": 0,
+    "needsRotation": false,
+    "approvedAt": "2026-04-08T11:51:12.291Z"
+  },
+  "CRJ900.png": {
+    "category": "aircraft",
+    "noseDirection": "north",
+    "approved": false,
+    "detectedNorth": true,
+    "topAlpha": 0,
+    "botAlpha": 0
+  },
+  "CS100.png": {
+    "category": "aircraft",
+    "noseDirection": "north",
+    "approved": false,
+    "detectedNorth": true,
+    "topAlpha": 0,
+    "botAlpha": 0
+  },
+  "CS300.png": {
+    "category": "aircraft",
+    "noseDirection": "north",
+    "approved": false,
+    "detectedNorth": true,
+    "topAlpha": 0,
+    "botAlpha": 0
+  },
+  "DHC4.png": {
+    "category": "aircraft",
+    "noseDirection": "north",
+    "approved": false,
+    "detectedNorth": true,
+    "topAlpha": 0,
+    "botAlpha": 0
+  },
+  "DR40.png": {
+    "category": "aircraft",
+    "noseDirection": "north",
+    "approved": false,
+    "detectedNorth": true,
+    "topAlpha": 0,
+    "botAlpha": 0
+  },
+  "E145.png": {
+    "category": "aircraft",
+    "noseDirection": "north",
+    "approved": false,
+    "detectedNorth": true,
+    "topAlpha": 0,
+    "botAlpha": 0
+  },
+  "E170.png": {
+    "category": "aircraft",
+    "noseDirection": "north",
+    "approved": false,
+    "detectedNorth": true,
+    "topAlpha": 0,
+    "botAlpha": 0
+  },
+  "E190.png": {
+    "category": "aircraft",
+    "noseDirection": "north",
+    "approved": false,
+    "detectedNorth": true,
+    "topAlpha": 0,
+    "botAlpha": 0
+  },
+  "E75L.png": {
+    "category": "aircraft",
+    "noseDirection": "north",
+    "approved": false,
+    "detectedNorth": true,
+    "topAlpha": 0,
+    "botAlpha": 0
+  },
+  "EC35.png": {
+    "category": "aircraft",
+    "noseDirection": "north",
+    "approved": false,
+    "detectedNorth": true,
+    "topAlpha": 0,
+    "botAlpha": 0
+  },
+  "GAZL.png": {
+    "category": "aircraft",
+    "noseDirection": "north",
+    "approved": false,
+    "detectedNorth": true,
+    "topAlpha": 0,
+    "botAlpha": 0
+  },
+  "HELI.png": {
+    "category": "aircraft",
+    "noseDirection": "north",
+    "approved": false,
+    "detectedNorth": true,
+    "topAlpha": 0,
+    "botAlpha": 0
+  },
+  "MD11.png": {
+    "category": "aircraft",
+    "noseDirection": "north",
+    "approved": false,
+    "detectedNorth": true,
+    "topAlpha": 0,
+    "botAlpha": 0
+  },
+  "P40.png": {
+    "category": "aircraft",
+    "noseDirection": "north",
+    "approved": false,
+    "detectedNorth": true,
+    "topAlpha": 0,
+    "botAlpha": 0
+  },
+  "PA18.png": {
+    "category": "aircraft",
+    "noseDirection": "north",
+    "approved": false,
+    "detectedNorth": true,
+    "topAlpha": 0,
+    "botAlpha": 0
+  },
+  "PA22.png": {
+    "category": "aircraft",
+    "noseDirection": "north",
+    "approved": false,
+    "detectedNorth": true,
+    "topAlpha": 0,
+    "botAlpha": 0
+  },
+  "PA28.png": {
+    "category": "aircraft",
+    "noseDirection": "north",
+    "approved": false,
+    "detectedNorth": true,
+    "topAlpha": 0,
+    "botAlpha": 0
+  },
+  "PA32.png": {
+    "category": "aircraft",
+    "noseDirection": "north",
+    "approved": false,
+    "detectedNorth": true,
+    "topAlpha": 0,
+    "botAlpha": 0
+  },
+  "PC12.png": {
+    "category": "aircraft",
+    "noseDirection": "north",
+    "approved": false,
+    "detectedNorth": true,
+    "topAlpha": 0,
+    "botAlpha": 0
+  },
+  "PC21.png": {
+    "category": "aircraft",
+    "noseDirection": "north",
+    "approved": false,
+    "detectedNorth": true,
+    "topAlpha": 0,
+    "botAlpha": 0
+  },
+  "Q400.png": {
+    "category": "aircraft",
+    "noseDirection": "north",
+    "approved": false,
+    "detectedNorth": true,
+    "topAlpha": 0,
+    "botAlpha": 0
+  },
+  "SR22.png": {
+    "category": "aircraft",
+    "noseDirection": "north",
+    "approved": false,
+    "detectedNorth": true,
+    "topAlpha": 0,
+    "botAlpha": 0
+  },
+  "T134.png": {
+    "category": "aircraft",
+    "noseDirection": "north",
+    "approved": false,
+    "detectedNorth": true,
+    "topAlpha": 0,
+    "botAlpha": 0
+  },
+  "gnd-ambulance.png": {
+    "category": "ground",
+    "noseDirection": "north",
+    "approved": false,
+    "detectedNorth": true,
+    "topAlpha": 0,
+    "botAlpha": 0
+  },
+  "gnd-belt.png": {
+    "category": "ground",
+    "noseDirection": "north",
+    "approved": false,
+    "detectedNorth": true,
+    "topAlpha": 0,
+    "botAlpha": 0
+  },
+  "gnd-bus.png": {
+    "category": "ground",
+    "noseDirection": "north",
+    "approved": false,
+    "detectedNorth": true,
+    "topAlpha": 0,
+    "botAlpha": 0
+  },
+  "gnd-catering.png": {
+    "category": "ground",
+    "noseDirection": "north",
+    "approved": false,
+    "detectedNorth": true,
+    "topAlpha": 0,
+    "botAlpha": 0
+  },
+  "gnd-deice.png": {
+    "category": "ground",
+    "noseDirection": "north",
+    "approved": false,
+    "detectedNorth": true,
+    "topAlpha": 0,
+    "botAlpha": 0
+  },
+  "gnd-fire.png": {
+    "category": "ground",
+    "noseDirection": "north",
+    "approved": false,
+    "detectedNorth": true,
+    "topAlpha": 0,
+    "botAlpha": 0
+  },
+  "gnd-follow.png": {
+    "category": "ground",
+    "noseDirection": "north",
+    "approved": false,
+    "detectedNorth": true,
+    "topAlpha": 0,
+    "botAlpha": 0
+  },
+  "gnd-fuel.png": {
+    "category": "ground",
+    "noseDirection": "north",
+    "approved": false,
+    "detectedNorth": true,
+    "topAlpha": 0,
+    "botAlpha": 0
+  },
+  "gnd-obstruction.png": {
+    "category": "ground",
+    "noseDirection": "north",
+    "approved": false,
+    "detectedNorth": false,
+    "topAlpha": 0,
+    "botAlpha": 425
+  },
+  "gnd-tug.png": {
+    "category": "ground",
+    "noseDirection": "north",
+    "approved": false,
+    "detectedNorth": true,
+    "topAlpha": 0,
+    "botAlpha": 0
+  },
+  "ground-emergency.png": {
+    "category": "ground",
+    "noseDirection": "north",
+    "approved": false,
+    "detectedNorth": false,
+    "topAlpha": 100,
+    "botAlpha": 6600
+  },
+  "ground.png": {
+    "category": "ground",
+    "noseDirection": "north",
+    "approved": false,
+    "detectedNorth": true,
+    "topAlpha": 0,
+    "botAlpha": 0
+  },
+  "vessel-bulk-carrier.png": {
+    "category": "vessel",
+    "noseDirection": "north",
+    "approved": false,
+    "detectedNorth": true,
+    "topAlpha": 0,
+    "botAlpha": 0
+  },
+  "vessel-cargo-ship.png": {
+    "category": "vessel",
+    "noseDirection": "north",
+    "approved": false,
+    "detectedNorth": true,
+    "topAlpha": 0,
+    "botAlpha": 0
+  },
+  "vessel-cargo.png": {
+    "category": "vessel",
+    "noseDirection": "north",
+    "approved": false,
+    "detectedNorth": false,
+    "topAlpha": 3720,
+    "botAlpha": 35892
+  },
+  "vessel-container-ship.png": {
+    "category": "vessel",
+    "noseDirection": "north",
+    "approved": false,
+    "detectedNorth": true,
+    "topAlpha": 0,
+    "botAlpha": 0
+  },
+  "vessel-cruise-ship.png": {
+    "category": "vessel",
+    "noseDirection": "north",
+    "approved": false,
+    "detectedNorth": true,
+    "topAlpha": 0,
+    "botAlpha": 0
+  },
+  "vessel-default.png": {
+    "category": "vessel",
+    "noseDirection": "north",
+    "approved": false,
+    "detectedNorth": false,
+    "topAlpha": 0,
+    "botAlpha": 18083
+  },
+  "vessel-destroyer.png": {
+    "category": "vessel",
+    "noseDirection": "north",
+    "approved": false,
+    "detectedNorth": true,
+    "topAlpha": 0,
+    "botAlpha": 0
+  },
+  "vessel-ferry.png": {
+    "category": "vessel",
+    "noseDirection": "north",
+    "approved": false,
+    "detectedNorth": true,
+    "topAlpha": 0,
+    "botAlpha": 0
+  },
+  "vessel-fishing-boat-2.png": {
+    "category": "vessel",
+    "noseDirection": "north",
+    "approved": false,
+    "detectedNorth": true,
+    "topAlpha": 0,
+    "botAlpha": 0
+  },
+  "vessel-fishing-boat.png": {
+    "category": "vessel",
+    "noseDirection": "north",
+    "approved": false,
+    "detectedNorth": true,
+    "topAlpha": 0,
+    "botAlpha": 0
+  },
+  "vessel-fishing.png": {
+    "category": "vessel",
+    "noseDirection": "north",
+    "approved": false,
+    "detectedNorth": false,
+    "topAlpha": 0,
+    "botAlpha": 3983
+  },
+  "vessel-icebreaker.png": {
+    "category": "vessel",
+    "noseDirection": "north",
+    "approved": false,
+    "detectedNorth": true,
+    "topAlpha": 0,
+    "botAlpha": 0
+  },
+  "vessel-lifeboat.png": {
+    "category": "vessel",
+    "noseDirection": "north",
+    "approved": false,
+    "detectedNorth": true,
+    "topAlpha": 0,
+    "botAlpha": 0
+  },
+  "vessel-oil-tanker.png": {
+    "category": "vessel",
+    "noseDirection": "north",
+    "approved": false,
+    "detectedNorth": true,
+    "topAlpha": 0,
+    "botAlpha": 0
+  },
+  "vessel-passenger.png": {
+    "category": "vessel",
+    "noseDirection": "north",
+    "approved": false,
+    "detectedNorth": false,
+    "topAlpha": 13970,
+    "botAlpha": 20814
+  },
+  "vessel-patrol-boat.png": {
+    "category": "vessel",
+    "noseDirection": "north",
+    "approved": false,
+    "detectedNorth": true,
+    "topAlpha": 0,
+    "botAlpha": 0
+  },
+  "vessel-sailing.png": {
+    "category": "vessel",
+    "noseDirection": "north",
+    "approved": false,
+    "detectedNorth": false,
+    "topAlpha": 786,
+    "botAlpha": 3983
+  },
+  "vessel-speedboat.png": {
+    "category": "vessel",
+    "noseDirection": "north",
+    "approved": false,
+    "detectedNorth": true,
+    "topAlpha": 0,
+    "botAlpha": 0
+  },
+  "vessel-tanker.png": {
+    "category": "vessel",
+    "noseDirection": "north",
+    "approved": false,
+    "detectedNorth": false,
+    "topAlpha": 3481,
+    "botAlpha": 40440
+  },
+  "vessel-trawler.png": {
+    "category": "vessel",
+    "noseDirection": "north",
+    "approved": false,
+    "detectedNorth": true,
+    "topAlpha": 0,
+    "botAlpha": 0
+  },
+  "vessel-tug.png": {
+    "category": "vessel",
+    "noseDirection": "north",
+    "approved": false,
+    "detectedNorth": true,
+    "topAlpha": 0,
+    "botAlpha": 0
+  },
+  "vessel-tugboat.png": {
+    "category": "vessel",
+    "noseDirection": "north",
+    "approved": false,
+    "detectedNorth": true,
+    "topAlpha": 0,
+    "botAlpha": 0
+  },
+  "vessel-yacht.png": {
+    "category": "vessel",
+    "noseDirection": "north",
+    "approved": false,
+    "detectedNorth": true,
+    "topAlpha": 0,
+    "botAlpha": 0
+  }
+}
